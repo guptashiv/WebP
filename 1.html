@@ -1,0 +1,33 @@
+<html>
+
+<h1>Area Calculator</h1>
+
+Enter the length
+<input type="text" id="length" >  
+<br><br>
+Enter the Width
+<input type="text" id="width" >
+<br> <br>
+
+Area is <input type="text" id="area">
+
+<br>
+
+<script ="Javascript">
+
+    function find_area()
+    {
+        var l= document.getElementById("length").value;
+        var w= document.getElementById("width").value;
+        var ar= l*w;
+        document.getElementById("area").value=ar;
+    } 
+
+</script>
+<input type="button" onclick="find_area()" value="Click me">
+
+<br>
+<br>
+
+
+</html>

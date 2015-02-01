@@ -1,0 +1,36 @@
+<html>
+
+<h1>Simple Interest Calculator</h1>
+
+<script ="Javascript">
+
+    
+    function cal()
+    {
+	
+        var l= prompt("enter the loan amount");
+        var r= prompt("Enter the Rate (in %) ");
+        var t= prompt("Enter the time");
+        var interest=(l*r*t)/100;
+        
+        document.write("<br>Loan amount= "+ l)
+        document.write("<br>Rate of Interest= "+ r )
+        document.write("<br>Time = "+ t + " years "+ "<br><br>")
+        
+        
+        document.write("The interest is    "+  interest);
+    } 
+
+</script>
+<!--
+-->
+<input type="button" id="area" onclick="cal()" value="Click me">
+
+
+
+
+
+
+
+
+</html>
